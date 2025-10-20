@@ -1,0 +1,42 @@
+{
+  "uuid": "2f33d8de-c474-4f38-a19b-cf2cab4228cc",
+  "name": "@dora.js/api-demo",
+  "displayName": "示例扩展",
+  "version": "1.8.0",
+  "description": "快速体验 Dora.js 提供的各种能力",
+  "license": "MIT",
+  "updates": "添加 $permission.request() 示例\n需要升级 Dora.js 到 1.8.0-beta",
+  "homepage": "https://github.com/Dorajs/samples/tree/master/api_demo",
+  "repository": {
+    "type": "git",
+    "directory": "api_demo",
+    "url": "https://github.com/Dorajs/samples.git"
+  },
+  "author": {
+    "name": "linroid",
+    "fullname": "Lin Zhang",
+    "email": "linroid@gmail.com"
+  },
+  "engines": {
+    "dora": ">=1.8.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "icon": "assets/icon.png",
+  "main": "main.js",
+  "contributes": {
+    "search": "search",
+    "tasks": {
+      "get_ip": {
+        "icon": "assets/ip.svg",
+        "label": "Sample: 获取外网 IP"
+      }
+    }
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.3",
+    "lru-cache": "^5.1.1"
+  }
+}
